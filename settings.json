@@ -1,0 +1,50 @@
+{
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": false,
+    "editor.fontSize": 14,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "off",
+    "editor.mouseWheelZoom": false,
+    //"java.format.settings.url": "formatter.xml",
+    //"java.format.settings.profile": "Default",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.inlineSuggest.enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.title": "${activeFolderLong}${separator}${activeEditorShort}",
+    "explorer.confirmDelete": false,
+    "workbench.colorCustomizations": {
+        "editor.background": "#1F1F1F"
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#797D7C",
+        "keywords": "#499CD5",
+        "types": "#39C8B0",
+        "variables": "#D4D4D4",
+        "functions": "#DBDBAA",
+        "strings": "#CB7A2F",
+        "numbers": "#BB0BB2",
+        "textMateRules": [
+            {
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#797D7C"
+                }
+            },
+            {
+                "scope": "punctuation",
+                "settings": {
+                    "foreground": "#797D7C"
+                }
+            },
+            {
+                "scope": "constant.character.escape",
+                "settings": {
+                    "foreground": "#754600"
+                }
+            }
+        ]
+    },
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "diffEditor.ignoreTrimWhitespace": false
+}
