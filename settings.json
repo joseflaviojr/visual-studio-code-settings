@@ -1,7 +1,9 @@
 {
+    "workbench.colorTheme": "GitHub Dark Dimmed",
     "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": false,
     "editor.fontSize": 14,
+    "editor.lineHeight": 1.2,
     "editor.tabSize": 4,
     "editor.wordWrap": "off",
     "editor.mouseWheelZoom": false,
@@ -46,5 +48,6 @@
         ]
     },
     "editor.unicodeHighlight.nonBasicASCII": false,
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.bracketPairColorization.enabled": false
 }
