@@ -1,9 +1,9 @@
 {
     "workbench.colorTheme": "GitHub Dark Dimmed",
-    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "Droid Sans Mono, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": false,
     "editor.fontSize": 14,
-    "editor.lineHeight": 1.2,
+    "editor.lineHeight": 1.1,
     "editor.tabSize": 4,
     "editor.wordWrap": "off",
     "editor.mouseWheelZoom": false,
@@ -13,7 +13,7 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.inlineSuggest.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
-    "window.title": "${activeFolderLong}${separator}${activeEditorShort}",
+    "window.title": "${activeFolderMedium}${separator}${activeEditorShort}${separator}vscode",
     "explorer.confirmDelete": false,
     "workbench.colorCustomizations": {
         "editor.background": "#1F1F1F"
@@ -49,5 +49,7 @@
     },
     "editor.unicodeHighlight.nonBasicASCII": false,
     "diffEditor.ignoreTrimWhitespace": false,
-    "editor.bracketPairColorization.enabled": false
+    "editor.bracketPairColorization.enabled": false,
+    "editor.insertSpaces": false,
+    "window.zoomLevel": 1
 }

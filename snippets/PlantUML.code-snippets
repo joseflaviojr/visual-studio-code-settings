@@ -1,0 +1,171 @@
+{
+	"Body for UML": {
+		"scope": "plantuml,puml",
+		"prefix": "body-uml",
+		"body": [
+			"@startuml $1",
+			"!theme toy",
+			"skinparam componentStyle rectangle",
+			"skinparam backgroundColor white",
+			"skinparam legendBackgroundColor white",
+			"skinparam legendBorderColor white",
+			"skinparam legendEntrySeparator white",
+			"skinparam noteBackgroundColor white",
+			"",
+			"title $1",
+			"header Version ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+			"",
+			"legend ${2|bottom,top|} ${3|right,left|}",
+			"\t|  Color  | Description |",
+			"\t|<#e0e0e0>| A |",
+			"\t|<#ffcea6>| B |",
+			"\t|<#b7e9ff>| C |",
+			"\t|<#ffe599>| D |",
+			"\t|<#cef0b4>| E |",
+			"\t|<#fcbacb>| F |",
+			"\t|<#cb9a8c>| G |",
+			"\t|<#ff7f7f>| H |",
+			"\t|<#cc99ff>| I |",
+			"\t|<#ffffff>| J |",
+			"endlegend",
+			"",
+			"$0",
+			"",
+			"@enduml"
+		],
+		"description": "Basic body for UML diagrams written in PlantUML."
+	},
+	"Component": {
+		"scope": "plantuml,puml",
+		"prefix": "component-uml",
+		"body": [
+			"component [$1] as ${1/[ ]/_/g}"
+		],
+		"description": "Component definition in UML Component Diagram."
+	},
+	"Component Interface": {
+		"scope": "plantuml,puml",
+		"prefix": "interface-component-uml",
+		"body": [
+			"interface \"$1\" as ${1/[ ]/_/g}"
+		],
+		"description": "Interface definition in UML Component Diagram."
+	},
+	"Component Relationship": {
+		"scope": "plantuml,puml",
+		"prefix": "relationship-component-uml",
+		"body": [
+			"$1 ${3|--,..,-->,..>,<--,<..,<-->,<..>|} $2 : $0"
+		],
+		"description": "Relationship between components in UML Component Diagram."
+	},
+	"Activity": {
+		"scope": "plantuml,puml",
+		"prefix": "activity-uml",
+		"body": [
+			":$1;$0"
+		],
+		"description": "Activity definition in UML Activity Diagram."
+	},
+	"Note": {
+		"scope": "plantuml,puml",
+		"prefix": "note-uml",
+		"body": [
+			"note ${1|right,left|}",
+			"\t$0",
+			"end note"
+		],
+		"description": "Element note in UML Diagram."
+	},
+	"Floating Note": {
+		"scope": "plantuml,puml",
+		"prefix": "note-floating-uml",
+		"body": [
+			"floating note ${1|right,left|}: $0"
+		],
+		"description": "Element floating note in UML Diagram."
+	},
+	"Connector": {
+		"scope": "plantuml,puml",
+		"prefix": "connector-uml",
+		"body": [
+			"($1)\ndetach$0"
+		],
+		"description": "Connector element in UML Activity Diagram."
+	},
+	"If Then Else Conditional": {
+		"scope": "plantuml,puml",
+		"prefix": "if-then-else-conditional-uml",
+		"body": [
+			"if ($1?) then (yes)",
+			"\t:$2;",
+			"else (no)",
+			"\t:$3;",
+			"endif$0"
+		],
+		"description": "Conditional structure \"if then else\" in UML Activity Diagram."
+	},
+	"Switch Case Conditional": {
+		"scope": "plantuml,puml",
+		"prefix": "switch-case-conditional-uml",
+		"body": [
+			"switch ($1)",
+			"case ($2)",
+			"\t:$3;",
+			"case ($4)",
+			"\t:$5;",
+			"endswitch$0"
+		],
+		"description": "Conditional structure \"switch case\" in UML Activity Diagram."
+	},
+	"While Loop": {
+		"scope": "plantuml,puml",
+		"prefix": "while-loop-uml",
+		"body": [
+			"while ($1?) is (yes)",
+			"\t:$2;",
+			"endwhile (no)$0"
+		],
+		"description": "While loop structure in UML Activity Diagram."
+	},
+	"Repeat Loop": {
+		"scope": "plantuml,puml",
+		"prefix": "repeat-loop-uml",
+		"body": [
+			"repeat",
+			"\t:$1;",
+			"backward:$3;",
+			"repeat while ($2?) is (yes)",
+			"->no;$0"
+		],
+		"description": "Repeat loop structure in UML Activity Diagram."
+	},
+	"Fork Parallel Processing": {
+		"scope": "plantuml,puml",
+		"prefix": "fork-parallel-uml",
+		"body": [
+			"fork",
+			"\t:$1;",
+			"fork again",
+			"\t:$2;",
+			"end ${3|fork,merge|}"
+		],
+		"description": "Fork parallel processing structure in UML Activity Diagram."
+	},
+	"Arrow Text": {
+		"scope": "plantuml,puml",
+		"prefix": "arrow-text-activity-uml",
+		"body": [
+			"-> $1;$0"
+		],
+		"description": "Arrow Text in UML Activity Diagram."
+	},
+	"Activity Lane": {
+		"scope": "plantuml,puml",
+		"prefix": "lane-activity-uml",
+		"body": [
+			"|$1|$0"
+		],
+		"description": "Activity Lane (Swimlane) in UML Activity Diagram."
+	}
+}

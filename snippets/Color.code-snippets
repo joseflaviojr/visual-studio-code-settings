@@ -1,0 +1,46 @@
+{
+	"White Color": {
+		"prefix": "white-color",
+		"body": [ "${1|#|}ffffff$0" ]
+	},
+	"Black Color": {
+		"prefix": "black-color",
+		"body": [ "${1|#|}000000$0" ]
+	},
+	"Gray Color": {
+		"prefix": "gray-color",
+		"body": [ "${1|#|}e0e0e0$0" ]
+	},
+	"Orange Color": {
+		"prefix": "orange-color",
+		"body": [ "${1|#|}ffcea6$0" ]
+	},
+	"Blue Color": {
+		"prefix": "blue-color",
+		"body": [ "${1|#|}b7e9ff$0" ]
+	},
+	"Yellow Color": {
+		"prefix": "yellow-color",
+		"body": [ "${1|#|}ffe599$0" ]
+	},
+	"Green Color": {
+		"prefix": "green-color",
+		"body": [ "${1|#|}cef0b4$0" ]
+	},
+	"Pink Color": {
+		"prefix": "pink-color",
+		"body": [ "${1|#|}fcbacb$0" ]
+	},
+	"Brown Color": {
+		"prefix": "brown-color",
+		"body": [ "${1|#|}cb9a8c$0" ]
+	},
+	"Red Color": {
+		"prefix": "red-color",
+		"body": [ "${1|#|}ff7f7f$0" ]
+	},
+	"Purple Color": {
+		"prefix": "purple-color",
+		"body": [ "${1|#|}cc99ff$0" ]
+	}
+}
