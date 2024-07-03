@@ -152,6 +152,16 @@
 		],
 		"description": "Fork parallel processing structure in UML Activity Diagram."
 	},
+	"Package": {
+		"scope": "plantuml,puml",
+		"prefix": "package-uml",
+		"body": [
+			"package \"$1\" {",
+			"\t$0",
+			"}"
+		],
+		"description": "Package in UML Diagram."
+	},
 	"Arrow Text": {
 		"scope": "plantuml,puml",
 		"prefix": "arrow-text-activity-uml",
@@ -167,5 +177,31 @@
 			"|$1|$0"
 		],
 		"description": "Activity Lane (Swimlane) in UML Activity Diagram."
+	},
+	"Body for YAML": {
+		"scope": "plantuml,puml",
+		"prefix": "body-yaml",
+		"body": [
+			"@startyaml $1",
+			"!theme toy",
+			"",
+			"$0",
+			"",
+			"@endyaml"
+		],
+		"description": "Basic body for visual representation of YAML with PlantUML."
+	},
+	"Body for JSON": {
+		"scope": "plantuml,puml",
+		"prefix": "body-json",
+		"body": [
+			"@startjson $1",
+			"!theme toy",
+			"",
+			"$0",
+			"",
+			"@endjson"
+		],
+		"description": "Basic body for visual representation of JSON with PlantUML."
 	}
 }
